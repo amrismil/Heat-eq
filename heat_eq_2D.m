@@ -57,7 +57,7 @@ while Code=="Y" || Code=="y"
             imwrite(A,map,filename,'gif','WriteMode','append','DelayTime',0.7);
         end
     end
-    Code=input('Do you want to run FASA again? (Y/N): ', 's');
+    Code=input('Do you want to run again? (Y/N): ', 's');
 end
 
 function u_0 = getINT(X,Y)
